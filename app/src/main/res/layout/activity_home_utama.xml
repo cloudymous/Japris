@@ -13,6 +13,7 @@
         android:gravity="center">
 
     <TextView
+        android:layout_gravity="center"
         android:id="@+id/namaCostumerPesan"
         android:textColor="@color/regularTextStyle"
         android:layout_width="wrap_content"
@@ -31,8 +32,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:layout_gravity="center_horizontal"
+                android:text="Menu"/>
+
             <include layout="@layout/menu_telepon_keluarga"/>
             <include layout="@layout/menu_pesan_makanan"/>
+            <include layout="@layout/menu_about_app"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Powered By Indonesia Android Kejar"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:src="@drawable/iak_logo" />
 
 
         </LinearLayout>

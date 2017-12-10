@@ -7,6 +7,7 @@
 
     <style name="regularTextStyle">
         <item name="android:textColor">@color/regularTextStyle</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="ListButtonHome">

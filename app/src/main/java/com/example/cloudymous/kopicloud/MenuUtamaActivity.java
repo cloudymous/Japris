@@ -14,15 +14,27 @@ public class MenuUtamaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_utama);
 
-        namaCostumer = getIntent().getExtras().getString("Nama Costumer"));
+        namaCostumer = getIntent().getExtras().getString("Nama Costumer");
         TextView costumer = findViewById(R.id.namaCostumerPesan);
 
-        costumer.setText("Halo, " + namaCostumer + "! Mau ngapain?");
+        costumer.setText("Halo, " + namaCostumer + "!");
 
     }
 
     public void teleponKeluarga (View view) {
-        Intent teleponKeluarga = new Intent();
+        Intent teleponKeluarga = new Intent(MenuUtamaActivity.this, MenuTeleponKeluarga.class);
+        startActivity(teleponKeluarga);
+    }
+
+    public void pesanMakanan (View view) {
+        Intent pesanMakanan = new Intent(MenuUtamaActivity.this, MenuPesanMakanan.class);
+        startActivity(pesanMakanan);
+
+    }
+
+    public void tentangAplikasi (View view) {
+        Intent aboutAplikasi = new Intent(MenuUtamaActivity.this, MenuTentangAplikasi.class);
+        startActivity(aboutAplikasi);
     }
 
 

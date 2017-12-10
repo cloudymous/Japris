@@ -1,6 +1,23 @@
 <resources>
-    <string name="app_name">Kopi Cloud</string>
-    <string name="greeting">
-        Hello. Welcome to Tawwa Cafe.
+    <string name="app_name">Japris</string>
+    <string name="greeting">Hello. Welcome to Japris.</string>
+    <string name="order_food">Order Food</string>
+    <string name="call_family">Call Family</string>
+    <string name="start_button">Start</string>
+    <string name="enter_your_name">Please Enter Your Name</string>
+    <string name="warn_insert_name">Please Insert Your Name First</string>
+    <string name="edit_family_button_text">Edit Family Number</string>
+    <string name="add_order_food_button_text">Order Food</string>
+    <string name="about_button_text">About</string>
+    <string name="about_app">
+        Japris is application for calling you family and order food to your housemaid or some people on your phone through email apps.
+        \nFirst insert your name at start page. Then select menu "Call Family" or "Order Food".
+        \nYou can add your family member and phone number.
+        \n\nMade for completing the course for Indonesia Android Kejar Certification Batch III.
+        \nMy class was mentored by Mudassir at Gedung Aula Dinas Kominfo Makassar, 18-19 November 2017
     </string>
+    <string name="add_family_member">Add Family Member</string>
+    <string name="nama_text_view">Name</string>
+    <string name="phone_number_text_view">Phone Number</string>
+    <string name="have_not_set">Have Not Set</string>
 </resources>

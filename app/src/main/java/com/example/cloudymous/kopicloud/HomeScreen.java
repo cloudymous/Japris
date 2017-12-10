@@ -22,7 +22,7 @@ public class HomeScreen extends Activity {
     public void submitNama(View view) {
         String costumer =namaCost.getText().toString();
         if (costumer.isEmpty()) {
-            Toast.makeText(HomeScreen.this, "Please insert your name first.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(HomeScreen.this, getString(R.string.warn_insert_name), Toast.LENGTH_SHORT).show();
         } else {
             Intent orderHomeIntent = new Intent(HomeScreen.this, MenuUtamaActivity.class);
             orderHomeIntent.putExtra("Nama Costumer", costumer);

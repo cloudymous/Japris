@@ -5,8 +5,23 @@
     android:layout_height="match_parent"
     tools:context="com.example.cloudymous.kopicloud.HomeScreen">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_full"/>
+
+    <ImageView
+        android:id="@+id/logoJapris"
+        android:layout_width="218dp"
+        android:layout_height="53dp"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/japris_color_bg"
+        android:layout_above="@id/greeting"/>
 
     <TextView
+        android:id="@+id/greeting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/namaCostumerEt"
@@ -14,6 +29,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/greeting"
+        android:textColor="@android:color/white"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"/>
@@ -27,14 +43,32 @@
         android:layout_marginRight="30dp"
         android:textAlignment="center"
         android:inputType="textCapWords"
-        android:hint="Please Enter Your Name"/>
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="@string/enter_your_name"/>
 
-    <Button
+    <ImageView
+        android:onClick="submitNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/namaCostumerEt"
+        android:layout_marginTop="37dp"
+        android:src="@drawable/btn_default"
+        android:id="@+id/startButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/startButton"
         android:layout_centerHorizontal="true"
-        android:onClick="submitNama"
-        android:text="Please"/>
+        android:layout_marginTop="49dp"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:text="@string/start_button"
+        android:textSize="25sp" />
 
 </RelativeLayout>
