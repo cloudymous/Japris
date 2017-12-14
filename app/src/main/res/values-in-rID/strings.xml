@@ -8,7 +8,7 @@
     <string name="enter_your_name">Silakan Masukan Nama</string>
     <string name="warn_insert_name">Silakan Masukan Nama Anda Terlebih Dulu</string>
     <string name="edit_family_button_text">Edit Nomor Keluarga</string>
-    <string name="add_order_food_button_text">Pesan Makanan</string>
+    <string name="add_order_food_button_text">Lihat Pesanan</string>
     <string name="about_button_text">Tentang Aplikasi</string>
     <string name="about_app">
         Japris adalah aplikasi untuk menghubungi keluarga serta memesan makanan kepada seseorang di rumah melalui email.
@@ -21,4 +21,5 @@
     <string name="nama_text_view">Nama</string>
     <string name="phone_number_text_view">Nomor Telepon</string>
     <string name="have_not_set">Belum Diatur</string>
+    <string name="send_order_food_button">Kirim Order Via Email</string>
 </resources>

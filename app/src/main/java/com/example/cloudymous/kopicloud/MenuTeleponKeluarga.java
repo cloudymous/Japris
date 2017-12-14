@@ -32,7 +32,7 @@ public class MenuTeleponKeluarga extends Activity {
         TextView nomorTV = findViewById(R.id.nomor);
         String nomor = nomorTV.getText().toString();
 
-        if (nomor.isEmpty()) {
+        if (nomor == getString(R.string.have_not_set)) {
             Toast.makeText(MenuTeleponKeluarga.this, getString(R.string.warn_insert_name), Toast.LENGTH_SHORT).show();
         } else {
             Intent teleponAyah = new Intent(Intent.ACTION_DIAL);

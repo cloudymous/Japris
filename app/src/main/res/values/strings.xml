@@ -7,7 +7,7 @@
     <string name="enter_your_name">Please Enter Your Name</string>
     <string name="warn_insert_name">Please Insert Your Name First</string>
     <string name="edit_family_button_text">Edit Family Number</string>
-    <string name="add_order_food_button_text">Order Food</string>
+    <string name="add_order_food_button_text">Preview Order</string>
     <string name="about_button_text">About</string>
     <string name="about_app">
         Japris is application for calling you family and order food to your housemaid or some people on your phone through email apps.
@@ -20,4 +20,5 @@
     <string name="nama_text_view">Name</string>
     <string name="phone_number_text_view">Phone Number</string>
     <string name="have_not_set">Have Not Set</string>
+    <string name="send_order_food_button">Send Order Via Email</string>
 </resources>
